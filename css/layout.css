@@ -1,0 +1,57 @@
+/* css universal */
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url("../images/bintang.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: aquamarine;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(23, 75, 120);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: azure;
+  color: black;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: aqua;
+  padding: 10px;
+  text-align: center;
+}
